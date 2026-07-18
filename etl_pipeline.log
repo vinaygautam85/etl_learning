@@ -1,0 +1,15 @@
+2026-07-18 21:15:30,212 | INFO | Extracted 5283 rows, 11 columns
+
+2026-07-18 21:15:30,706 | INFO | API extraction successfull: (Status 200
+2026-07-18 21:15:30,717 | INFO | Extracted 10 rows, 15 columns
+
+2026-07-18 21:15:31,069 | INFO | Netflix — original: (5283, 11), read back: (5283, 11)
+2026-07-18 21:15:31,072 | INFO | Users API — original: (10, 15), read back: (10, 15)
+2026-07-18 21:15:31,591 | INFO | Netflix - Raw data: (5283, 11) > Transformed data: (5283, 10)
+2026-07-18 21:15:31,594 | INFO | Users - Raw data: (10, 15) > Transformed data: (10, 10)
+2026-07-18 21:15:32,063 | INFO | Netflix load verified: 5283 rows in Dataframe, 5283 rows in table. Matched!
+2026-07-18 21:15:32,192 | INFO | Transformed DataFrame rows: 10
+2026-07-18 21:15:32,198 | INFO | Rows loaded into 'users' table: 10
+2026-07-18 21:15:32,451 | INFO | To update: 1 row(s)
+2026-07-18 21:15:32,456 | INFO | To insert: 1 row(s)
+2026-07-18 21:15:32,693 | INFO | Total rows: 11
