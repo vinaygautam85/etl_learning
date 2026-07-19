@@ -1,0 +1,41 @@
+# ---- Virtual environments ----
+etl_env/
+venv/
+env/
+.venv/
+
+# ---- Python bytecode / cache ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Jupyter ----
+*.ipynb
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- Data files (regenerable — keep out of repo) ----
+data/
+*.parquet
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- Environment / secrets (NEVER commit these) ----
+.env
+*.env
+credentials.json
+secrets.*
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
